@@ -1,15 +1,19 @@
 import React from "react";
 
+import { Container } from './styled'
+
 const Character = ({character}) => {
     const {name, species, image,  location} = character
 
     return(
-        <div className="containerCard">
+        <Container>
             <img src={image} alt={name}/>
-            <h1>{name}</h1>
+            <ul>
+            <li><h1>{name}</h1></li>
             <li>{species}</li>
             <li>{location.name}</li>
-        </div>
+            </ul>
+        </Container>
     )
 }
 export default Character;

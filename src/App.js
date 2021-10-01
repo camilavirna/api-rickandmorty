@@ -1,5 +1,6 @@
 import React from "react";
 import Character from "./components/Character";
+import { Container } from "./components/Character/styled";
 
 
 class App extends React.Component {
