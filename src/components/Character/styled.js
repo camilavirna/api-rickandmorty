@@ -21,12 +21,19 @@ export const Container = styled.body`
 
     ul {
         li {
+
+    
             h1{
+                display: flex;
+                flex-direction: initial;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 20px;
                 color: #ccff33 ;
             }
 
+            display: flex;
+            flex-direction: initial;
+            justify-content: center;
             color: white;
             list-style: none;
         }
